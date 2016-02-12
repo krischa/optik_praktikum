@@ -1,0 +1,7 @@
+370 - Polarisation von Licht
+
+-Versuchsziel:
+	Verständnis der Wechselwirkung von polarisiertem Licht mit Materie.
+
+-Verwendete Formeln:
+	Polarisationsgrad (370.1), Cauchy-Formel (370.2), Biotsche Formel (370.3), Malussches Gesetz (370.4)
