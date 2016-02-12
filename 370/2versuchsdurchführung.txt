@@ -1,0 +1,15 @@
+-370.a:
+	Durchführung:
+		Die Versuchsanordnung (s. Skizze) wird auf einer optischen bank aufgebaut. Mit Hilfe der Linsen wird das Licht auf die 
+Photodiode (Si)  fokussiert, die im Kurzschluss betrieben wird und einen zur Beleuchtungsstärke proportionalen Storm an den 
+Transimpedanzverstärker liefert, der den Strom in eine Spannung umwandelt, ohne die Stromquelle zu belasten. Diese Spannung wird als 
+Intensität gemessen. Mit dem Drehpotentiometer wird die Verstärkung so eingestellt, dass bei maximaler Intensität eine Spannung von ca. 10V 
+erreicht wird, um den Verstärker nicht zu überlasten.
+		Der Dunkelstrom der Photodiode - also der Strom, den die Photodiode, bei kompletter Abschottung von der Lichtquelle abgibt - 
+wird als Offset gemessen. Nun wird der Polarisator auf -90° eingestellt und der Analysator zwischen -90° und +90° gedreht, die Spannung wird 
+in Abständen von 10° gemessen. Der Polarisator wird auf 90° eingestellt und der Messvorgang wiederholt.
+	Auswertung:
+		Die Nulllage der Winkelskala des Polarisators wird bestimmt und die um den Dunkelstrom korrigierten Intensitäten (also die 
+gemessenen Spannungen) gegen die Winkeldifferenz zwischen Polarisator und Analysator aufgetragen. An die Messwerte soll Gleichung (370.4) 
+gefittet werden, um das Malus'sche Gesetz zu bestätigen. Aus der maximalen und minimalen Intensität wird schließlich noch der 
+Polarisationsgrad des Lichts nach dem Ergebnis aus Aufgabe 370.B bestimmt.
