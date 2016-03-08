@@ -1,7 +1,7 @@
 set terminal eps enhanced monochrome
 set output "370b.eps"
 #set yrange [0:10]
-#set xrange [0:]
+#set xrange [420:700]
 set xlabel "{/Symbol l}^{-2}/nm^{-2}"
 set ylabel "{/Symbol j}-{/Symbol j}_0"
 set title "370.b"
