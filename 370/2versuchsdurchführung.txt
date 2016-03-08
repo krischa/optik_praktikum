@@ -13,3 +13,7 @@ in Abständen von 10° gemessen. Der Polarisator wird auf 90° eingestellt und d
 gemessenen Spannungen) gegen die Winkeldifferenz zwischen Polarisator und Analysator aufgetragen. An die Messwerte soll Gleichung (370.4) 
 gefittet werden, um das Malus'sche Gesetz zu bestätigen. Aus der maximalen und minimalen Intensität wird schließlich noch der 
 Polarisationsgrad des Lichts nach dem Ergebnis aus Aufgabe 370.B bestimmt.
+
+-370.b:
+	Durchführung:
+		Es sollen Drehsinn und -vermögen eines Quarzpräparates bestimmt werden.
