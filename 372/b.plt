@@ -9,10 +9,10 @@ set grid
 set key
 f(x)=a*x+0.001810344827586207
 g(x)=b*x+0.001810344827586207
-h(x)=c*x+0.001810344827586207
+h(x)=1.42827e-12*x+0.001
 i(x)=d*x+0.001810344827586207
 fit f(x) "b_weiss.csv" u 3:5  via a
 fit g(x) "b_schwarz.csv" u 3:5 via b
-fit h(x) "b.csv" u 11:13 via c
+#fit h(x) "b.csv" u 11:13 via c
 #fit j(x) "b.csv" u 15:17 via d
-plot f(x) title "Weisse Seite", "b_weiss.csv" u 3:5:7 w yerrorbars, g(x) title "Schwarze Seite", "b_schwarz.csv" u 3:5:7 w yerrorbars, h(x) title "Stumpfe Seite", "b_stumpf.csv" u 3:5:7 w yerrorbars#, j(x) title "Polierte Seite", "b.csv" u 15:17:18:19 w xyerrorbars
+plot f(x) title "Weisse Seite", "b_weiss.csv" u 3:5:7 w yerrorbars, g(x) title "Schwarze Seite", "b_schwarz.csv" u 3:5:7 w yerrorbars, h(x) title "Stumpfe Seite", "b_stumpf.csv" u 3:5#:7 w yerrorbars, j(x) title "Polierte Seite", "b.csv" u 15:17:18:19 w xyerrorbars
