@@ -2016,3 +2016,39 @@ correlation matrix of the fit parameters:
                 a      b      
 a               1.000 
 b              -0.958  1.000 
+
+
+*******************************************************************************
+Mon Mar 14 19:03:47 2016
+
+
+FIT:    data read from "370b.csv" u 3:1
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9206399806e+04   0.00e+00  2.82e+00    1.000000e+00   1.000000e+00
+   4 7.3990896348e+01  -7.82e-03  2.82e-04   -9.795506e+00   3.455164e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 73.9909
+rel. change during last iteration : -7.8207e-08
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.84684
+variance of residuals (reduced chisquare) = WSSR/ndf   : 14.7982
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -9.79551         +/- 5.082        (51.88%)
+b               = 34.5516          +/- 1.319        (3.817%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.958  1.000 
