@@ -1,4 +1,4 @@
-set terminal postscript enhanced monochrome
+set terminal eps enhanced monochrome
 set output "c.eps"
 #set yrange [0:20]
 #set xrange [0:10]
